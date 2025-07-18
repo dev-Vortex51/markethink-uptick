@@ -5,7 +5,7 @@ import { contents } from "../../constants/data";
 
 const Services = () => {
   return (
-    <section className="py-10 flex items-center justify-center">
+    <section className="py-20 flex items-center justify-center">
       <div className="mx-auto w-[90%]  grid lg:grid-cols-2 gap-10 items-start  lg:space-y-10">
         {/* Left Content Block */}
         <div className="flex flex-col items-center lg:items-start">
@@ -17,10 +17,15 @@ const Services = () => {
             processes, where from the funny century initial all made, have spare
             to negatives
           </p>
-          <Button variation="link" className="mt-4">
-            <p>See More</p>
-            <img src="/Arrow.png" alt="arrow" />
-          </Button>
+         <div className="text-center">
+          <a
+            href="#"
+            className="inline-flex items-center underline gap-3 text-lemony mt-4 font-medium"
+          >
+            See More
+            <img src="/Arrow.png" alt="" />
+          </a>
+        </div>
         </div>
 
         {/* Content Cards */}
@@ -41,7 +46,7 @@ const Services = () => {
         </div>
 
         {/* Right Content Block */}
-        <div className="flex flex-col gap-4 items-center lg:items-start">
+        <div className="flex flex-col gap-4 items-center xl:mt-10 lg:items-start">
           <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blacky leading-tight text-center lg:text-left">
             Increase Business on Social Media Reach
           </h1>
