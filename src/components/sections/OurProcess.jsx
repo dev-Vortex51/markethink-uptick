@@ -3,7 +3,7 @@ import React from 'react';
 export default function OurProcess() {
   return (
     <section className="bg-[#F6FBF9] py-16 px-4">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="w-[90%] mx-auto text-center">
         {/* Header */}
         <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blacky leading-tight text-center lg:text-lef mb-2">How Can We Help You?</h2>
         <p className="text-base sm:text-lg md:text-xl text-accent leading-relaxed  mb-12">Let's do great work together</p>

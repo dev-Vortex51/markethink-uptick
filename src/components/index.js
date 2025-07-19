@@ -7,3 +7,5 @@ export { default as Button } from "./ui/Button";
 export { default as Content } from "./ui/Content";
 export { default as Header } from "./Header";
 export { default as Footer } from "./Footer";
+export { default as TabContents } from "./TabContents";
+export { default as WritingContent } from "./WritingContent";

@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 
 const Hero = () => {
   return (
-    <section className="relative bg-[url(/bg.png)] bg-cover bg-center text-white md:min-h-screen">
+    <section className="relative bg-[url(/bg.png)] bg-cover bg-center text-white min-h-screen">
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#395C4D]/80 to-[#132D1F]/80 z-0" />
 
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0  hidden lg:block">
+      <div className="absolute bottom-0  hidden md:block">
         <img src="/down.png" alt="" />
       </div>
     </section>

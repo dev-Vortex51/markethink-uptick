@@ -17,15 +17,15 @@ const Services = () => {
             processes, where from the funny century initial all made, have spare
             to negatives
           </p>
-         <div className="text-center">
-          <a
-            href="#"
-            className="inline-flex items-center underline gap-3 text-lemony mt-4 font-medium"
-          >
-            See More
-            <img src="/Arrow.png" alt="" />
-          </a>
-        </div>
+          <div className="text-center">
+            <a
+              href="#"
+              className="inline-flex items-center underline gap-3 text-lemony mt-4 font-medium"
+            >
+              See More
+              <img src="/Arrow.png" alt="" />
+            </a>
+          </div>
         </div>
 
         {/* Content Cards */}
@@ -41,12 +41,12 @@ const Services = () => {
         </div>
 
         {/* Thumbnail Image */}
-        <div className="flex items-center justify-center">
+        <div className="w-full flex items-center justify-center">
           <img src="/Thumbnail.png" alt="thumbnail" />
         </div>
 
         {/* Right Content Block */}
-        <div className="flex flex-col gap-4 items-center xl:mt-10 lg:items-start">
+        <div className=" w-full flex flex-col gap-4 items-center xl:mt-10 lg:items-start">
           <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-blacky leading-tight text-center lg:text-left">
             Increase Business on Social Media Reach
           </h1>

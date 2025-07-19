@@ -20,7 +20,7 @@ const Button = ({
 
   const variationStyles = {
     normal: `${bgColor} ${textColor} hover:opacity-90 rounded-full w-[180px] md:w-[243px] h-[60px] md:h-[78px]`,
-    outline: `border-2 border-[#EDFF8166]   ${textColor} ${bgColor} rounded-full  `,
+    outline: `border-2 border-lemony ${textColor} ${bgColor} rounded-full  `,
     link: `bg-transparent underline bg-0 text-[#A3B938] flex items-center gap-3  `,
   };
 
