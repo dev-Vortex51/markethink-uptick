@@ -39,7 +39,7 @@ Watch a quick walkthrough of MarkeThink:
 
 ## Live Deployment
 
-Check out the live site here: [https://markethink-uptick.vercel.app](https://markethink-uptick.vercel.app)
+Check out the live site here: [https://markethink-uptick.netlify.app](https://markethink-uptick.netlify.app)
 
 ### Development
 
