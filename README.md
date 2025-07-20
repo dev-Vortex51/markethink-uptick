@@ -25,7 +25,7 @@ MarkeThink is a modern digital marketing agency website built with React, Vite, 
 
 Clone the repository and install dependencies:
 
-```sh
+````sh
 git clone https://github.com/dev_Vortex51## Demo
 
 Watch a quick walkthrough of MarkeThink:
@@ -34,12 +34,27 @@ Watch a quick walkthrough of MarkeThink:
 
 ## Live Deployment
 
-Check out the live site here: [https://markethink-uptick.vercel.app](https://markethink-uptick.vercel.app)/markethink-uptick.git
+Check out the live site here: [https://markethink-uptick.vercel.app](https://markethink-uptick.vercel.app)
 
+### Installation
 
+Clone the repository and install dependencies:
+
+```sh
+git clone https://github.com/dev_Vortex51/markethink-uptick.git
 cd markethink-uptick
 npm install
-```
+````
+
+## Demo
+
+Watch a quick walkthrough of MarkeThink:
+
+[![MarkeThink Demo Video](https://www.loom.com/share/54f01c19832645e38a8ee79044de3493?sid=12ddae25-7cd4-41b6-b144-f85182b4fb7f)](https://www.loom.com/share/54f01c19832645e38a8ee79044de3493?sid=12ddae25-7cd4-41b6-b144-f85182b4fb7f)
+
+## Live Deployment
+
+Check out the live site here: [https://markethink-uptick.vercel.app](https://markethink-uptick.vercel.app)
 
 ### Development
 
@@ -48,6 +63,19 @@ Start the development server:
 ```sh
 npm run dev
 ```
+
+cd markethink-uptick
+npm install
+
+````
+
+### Development
+
+Start the development server:
+
+```sh
+npm run dev
+````
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
 
