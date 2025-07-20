@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../Header";
 import Button from "../ui/Button";
+import Sidebar from "../ui/Sidebar";
 
 const Hero = () => {
+  const [openSidebar, setOpenSidebar] = useState(false);
+
+  const handleOpenSidebar = () => {
+    setOpenSidebar(true);
+  };
+  const handleSidebarClose = () => {
+    setOpenSidebar(false);
+  };
   return (
     <section className="relative bg-[url(/bg.png)] bg-cover bg-center text-white min-h-screen">
       {/* Gradient Overlay */}
@@ -11,7 +20,10 @@ const Hero = () => {
       {/* Content Container */}
       <div className="relative z-10 w-[90%] lg:w-[80%] mx-auto py-10 md:py-20 flex flex-col">
         {/* Header */}
-        <Header />
+        <Header onOpen={handleOpenSidebar} />
+        {openSidebar && (
+          <Sidebar onClose={handleSidebarClose} isOpen={openSidebar} />
+        )}
 
         {/* Main Text */}
         <div className="text-center mt-16 md:mt-24">
@@ -38,9 +50,19 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0  hidden md:block">
-        <img src="/down.png" alt="" />
+      <div className="w-full absolute bottom-0  hidden md:block">
+        <img src="/down.png" alt="" className="w-full" />
       </div>
+      <img
+        src="/Lefty.png"
+        alt=""
+        className="absolute bottom-0 block md:hidden right-0 size-[100px]"
+      />
+      <img
+        src="/Righty.png"
+        alt=""
+        className="absolute bottom-0 block md:hidden  left-0 size-[100px]"
+      />
     </section>
   );
 };

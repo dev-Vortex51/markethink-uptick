@@ -35,3 +35,36 @@ export const contents = [
     title: "Content Optimization",
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "Menu",
+    links: [
+      { name: "Home", href: "#" },
+      { name: "Features", href: "#" },
+      { name: "Pricing About", href: "#" },
+      { name: "Contact Us", href: "#" },
+    ],
+  },
+  {
+    title: "Services",
+    links: [
+      { name: "Content Strategy", href: "#" },
+      { name: "Content Development", href: "#" },
+      { name: "Content Creation", href: "#" },
+      { name: "Content Optimazion", href: "#" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { name: "Site Map", href: "#" },
+      { name: "Terms of Use", href: "#" },
+      { name: "Privacy Notice  ", href: "#" },
+      { name: "Cookies", href: "#" },
+      { name: "Modern Slavery", href: "#" },
+    ],
+  },
+];
+
+// Site Map Terms of Use Privacy Notice Cookies Modern Slavery

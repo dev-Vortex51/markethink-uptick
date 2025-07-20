@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./ui/Button";
 import { MenuIcon } from "lucide-react";
 
-const Header = () => {
+const Header = ({ onOpen }) => {
   return (
     <header className="flex items-center justify-between">
       <div className="flex items-center gap-2">
@@ -12,16 +12,28 @@ const Header = () => {
         </h1>
       </div>
       <nav className="hidden items-center gap-6 lg:flex">
-        <a className="text-white text-[16px] font-[400]" href="#features">
+        <a
+          className="text-white text-[16px] font-[400] hover:text-lemony transition-colors duration-300"
+          href="#features"
+        >
           Features
         </a>
-        <a className="text-white text-[16px] font-[400]" href="#pricing">
+        <a
+          className="text-white text-[16px] font-[400] hover:text-lemony transition-colors duration-300"
+          href="#pricing"
+        >
           Pricing
         </a>
-        <a className="text-white text-[16px] font-[400]" href="#about">
+        <a
+          className="text-white text-[16px] font-[400] hover:text-lemony transition-colors duration-300"
+          href="#about"
+        >
           About
         </a>
-        <a className="text-white text-[16px] font-[400]" href="#contact-us">
+        <a
+          className="text-white text-[16px] font-[400] hover:text-lemony transition-colors duration-300"
+          href="#contact-us"
+        >
           Contact Us
         </a>
       </nav>
@@ -31,7 +43,10 @@ const Header = () => {
         </Button>
       </div>
       <div className="block lg:hidden">
-        <MenuIcon className="size-6 text-white cursor-pointer" />
+        <MenuIcon
+          className="size-6 text-white cursor-pointer"
+          onClick={onOpen}
+        />
       </div>
     </header>
   );
