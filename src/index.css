@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: "Rubik", sans-serif;
+  --color-blacky: #253d32;
+  --color-lemony: #98aa28;
+  --color-accent: #78847d;
+}
+
+html,
+body {
+  font-family: var(--font-rubik);
+}
